@@ -1,0 +1,52 @@
+
+=PARAMETER/UNIT
+#position=100
+
+%        : %       : %
+Area     : m2      : ft2
+Binary   : n/a     : n/a
+Code     : n/a     : n/a
+Coeff    : n/a     : n/a
+Conc     : mg/l    : ppm
+Cond     : umho/cm : umho/cm
+Count    : unit    : unit
+Currency : $       : $
+Current  : ampere  : ampere
+Depth    : mm      : in
+Dir      : deg     : deg
+Dist     : km      : mi
+Elev     : m       : ft
+Energy   : MWh     : MWh
+Evap     : mm      : in
+EvapRate : mm/day  : in/day
+Fish     : unit    : unit
+Flow     : cms     : cfs
+Frost    : cm      : in
+Head     : m       : ft
+Height   : m       : ft
+Irrad    : W/m2    : langley/min
+Length   : m       : ft
+Opening  : m       : ft
+Power    : MW      : MW
+Precip   : mm      : in
+Pres     : kPa     : in-hg
+Rad      : J/m2    : langley
+Ratio    : n/a     : n/a
+Rotation : deg     : deg
+Speed    : kph     : mph
+SpinRate : rpm     : rpm
+Stage    : m       : ft
+Stor     : m3      : ac-ft
+Temp     : C       : F
+Text     : n/a     : n/a
+Thick    : cm      : in
+Timing   : sec     : sec
+Travel   : km      : mi
+Turb     : JTU     : JTU
+TurbF    : FNU     : FNU
+TurbJ    : JTU     : JTU
+TurbN    : NTU     : NTU
+Volt     : volt    : volt
+Volume   : m3      : ft3
+Width    : m       : ft
+pH       : su      : su

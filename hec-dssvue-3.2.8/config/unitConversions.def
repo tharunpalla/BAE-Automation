@@ -1,0 +1,1418 @@
+// Generated from: //wcdba/dev/oracle/dev/src/unitConversions.py#27  on 2019-05-30 16:23
+// UNIT DEFINITIONS
+//  UnitSystem;UnitName;UnitAliases...;...;
+
+//Angle
+English;deg
+English;rad
+English;rev
+SI;deg
+SI;rad
+SI;rev
+
+//Angle Conversions
+English;deg>SI;deg;1.0
+English;deg>English;rad;0.017453290
+English;deg>English;rev;0.002777777777777778
+English;deg>SI;rad;0.017453290
+English;deg>SI;rev;0.002777777777777778
+English;rad>SI;rad;1.0
+English;rad>English;deg;57.29578778556937
+English;rad>English;rev;0.1591549660710260
+English;rad>SI;deg;57.29578778556937
+English;rad>SI;rev;0.1591549660710260
+English;rev>SI;rev;1.0
+English;rev>English;deg;360.0
+English;rev>English;rad;6.283184400
+English;rev>SI;deg;360.0
+English;rev>SI;rad;6.283184400
+SI;deg>English;deg;1.0
+SI;deg>English;rad;0.017453290
+SI;deg>English;rev;0.002777777777777778
+SI;deg>SI;rad;0.017453290
+SI;deg>SI;rev;0.002777777777777778
+SI;rad>English;rad;1.0
+SI;rad>English;deg;57.29578778556937
+SI;rad>English;rev;0.1591549660710260
+SI;rad>SI;deg;57.29578778556937
+SI;rad>SI;rev;0.1591549660710260
+SI;rev>English;rev;1.0
+SI;rev>English;deg;360.0
+SI;rev>English;rad;6.283184400
+SI;rev>SI;deg;360.0
+SI;rev>SI;rad;6.283184400
+
+//Angluar Speed
+English;rpm;rev/min;revolutions per minute
+SI;rpm;rev/min;revolutions per minute
+
+//Angluar Speed Conversions
+English;rpm>SI;rpm;1.0
+SI;rpm>English;rpm;1.0
+
+//Area
+English;1000 acre
+English;acre;ACRES;acres
+English;ft2;sq ft;square feet
+English;mile2;mi2;sq mi;sq mile;sq miles;square miles
+SI;1000 m2;1000 M2;1000 sq m;1000 sq meters
+SI;cm2
+SI;ha;hectare;hectares
+SI;km2;sq km;sq.km;sqkm
+SI;m2;M2;sq m;sq meter;sq meters;square meters
+
+//Area Conversions
+English;1000 acre>English;acre;1.0E+3
+English;1000 acre>English;ft2;4.35600E+7
+English;1000 acre>English;mile2;1.5625
+English;1000 acre>SI;1000 m2;4046.856422400
+English;1000 acre>SI;cm2;40468564224.00
+English;1000 acre>SI;ha;404.6856422400
+English;1000 acre>SI;km2;4.046856422400
+English;1000 acre>SI;m2;4046856.422400
+English;acre>English;ft2;43560.0
+English;acre>English;mile2;0.0015625
+English;acre>SI;1000 m2;4.046856422400
+English;acre>SI;cm2;40468564.22400
+English;acre>SI;ha;0.4046856422400
+English;acre>SI;km2;0.004046856422400
+English;acre>SI;m2;4046.856422400
+English;ft2>English;1000 acre;2.295684113865932E-8
+English;ft2>English;acre;0.00002295684113865932
+English;ft2>English;mile2;3.587006427915519E-8
+English;ft2>SI;1000 m2;0.000092903040
+English;ft2>SI;cm2;929.03040
+English;ft2>SI;ha;0.0000092903040
+English;ft2>SI;km2;9.2903040E-8
+English;ft2>SI;m2;0.092903040
+English;mile2>English;1000 acre;0.6400
+English;mile2>English;acre;640.0
+English;mile2>English;ft2;27878400.0
+English;mile2>SI;1000 m2;2589.988110336000
+English;mile2>SI;cm2;25899881103.36000
+English;mile2>SI;ha;258.9988110336000
+English;mile2>SI;km2;2.589988110336000
+English;mile2>SI;m2;2589988.110336000
+SI;1000 m2>English;1000 acre;0.0002471053814671653
+SI;1000 m2>English;acre;0.2471053814671653
+SI;1000 m2>English;ft2;10763.91041670972
+SI;1000 m2>English;mile2;0.0003861021585424458
+SI;1000 m2>SI;cm2;1.0E+7
+SI;1000 m2>SI;ha;0.10
+SI;1000 m2>SI;km2;0.0010
+SI;1000 m2>SI;m2;1.0E+3
+SI;cm2>English;1000 acre;2.471053814671653E-11
+SI;cm2>English;ft2;0.001076391041670972
+SI;cm2>English;mile2;3.861021585424458E-11
+SI;cm2>SI;1000 m2;1.0E-7
+SI;cm2>SI;ha;1.0E-8
+SI;cm2>SI;km2;1.0E-10
+SI;cm2>SI;m2;0.00010
+SI;ha>English;1000 acre;0.002471053814671653
+SI;ha>English;acre;2.471053814671653
+SI;ha>English;ft2;107639.1041670972
+SI;ha>English;mile2;0.003861021585424458
+SI;ha>SI;1000 m2;10
+SI;ha>SI;cm2;1.0E+8
+SI;ha>SI;km2;0.010
+SI;ha>SI;m2;1.0E+4
+SI;km2>English;1000 acre;0.2471053814671653
+SI;km2>English;acre;247.1053814671653
+SI;km2>English;ft2;10763910.41670972
+SI;km2>English;mile2;0.3861021585424458
+SI;km2>SI;1000 m2;1.0E+3
+SI;km2>SI;cm2;1.0E+10
+SI;km2>SI;ha;1.0E+2
+SI;km2>SI;m2;1.0E+6
+SI;m2>English;1000 acre;2.471053814671653E-7
+SI;m2>English;acre;0.0002471053814671653
+SI;m2>English;ft2;10.76391041670972
+SI;m2>English;mile2;3.861021585424458E-7
+SI;m2>SI;1000 m2;0.0010
+SI;m2>SI;cm2;1.0E+4
+SI;m2>SI;ha;0.00010
+SI;m2>SI;km2;0.0000010
+
+//Areal Volume Rate
+English;cfs/mi2
+SI;cms/km2
+
+//Areal Volume Rate Conversions
+English;cfs/mi2>SI;cms/km2;0.01093319559228650
+SI;cms/km2>English;cfs/mi2;91.46456692913386
+
+//Conductance
+English;S
+English;mho
+English;uS
+English;umho
+SI;S
+SI;mho
+SI;uS
+SI;umho
+
+//Conductance Conversions
+English;S>SI;S;1.0
+English;S>English;mho;1.0
+English;S>English;uS;1.0E+6
+English;S>English;umho;1.0E+6
+English;S>SI;mho;1.0
+English;S>SI;uS;1.0E+6
+English;S>SI;umho;1.0E+6
+English;mho>SI;mho;1.0
+English;mho>English;S;1.0
+English;mho>English;uS;1.0E+6
+English;mho>English;umho;1.0E+6
+English;mho>SI;S;1.0
+English;mho>SI;uS;1.0E+6
+English;mho>SI;umho;1.0E+6
+English;uS>SI;uS;1.0
+English;uS>English;S;0.0000010
+English;uS>English;mho;0.0000010
+English;uS>English;umho;1.0
+English;uS>SI;S;0.0000010
+English;uS>SI;mho;0.0000010
+English;uS>SI;umho;1.0
+English;umho>SI;umho;1.0
+English;umho>English;S;0.0000010
+English;umho>English;mho;0.0000010
+English;umho>English;uS;1.0
+English;umho>SI;S;0.0000010
+English;umho>SI;mho;0.0000010
+English;umho>SI;uS;1.0
+SI;S>English;S;1.0
+SI;S>English;mho;1.0
+SI;S>English;uS;1.0E+6
+SI;S>English;umho;1.0E+6
+SI;S>SI;mho;1.0
+SI;S>SI;uS;1.0E+6
+SI;S>SI;umho;1.0E+6
+SI;mho>English;mho;1.0
+SI;mho>English;S;1.0
+SI;mho>English;uS;1.0E+6
+SI;mho>English;umho;1.0E+6
+SI;mho>SI;S;1.0
+SI;mho>SI;uS;1.0E+6
+SI;mho>SI;umho;1.0E+6
+SI;uS>English;uS;1.0
+SI;uS>English;S;0.0000010
+SI;uS>English;mho;0.0000010
+SI;uS>English;umho;1.0
+SI;uS>SI;S;0.0000010
+SI;uS>SI;mho;0.0000010
+SI;uS>SI;umho;1.0
+SI;umho>English;umho;1.0
+SI;umho>English;S;0.0000010
+SI;umho>English;mho;0.0000010
+SI;umho>English;uS;1.0
+SI;umho>SI;S;0.0000010
+SI;umho>SI;mho;0.0000010
+SI;umho>SI;uS;1.0
+
+//Conductivity
+English;umho/cm;UMHO/CM;UMHOS/CM;umhos/cm
+SI;umho/cm;UMHO/CM;UMHOS/CM;umhos/cm
+
+//Conductivity Conversions
+English;umho/cm>SI;umho/cm;1.0
+SI;umho/cm>English;umho/cm;1.0
+
+//Count
+English;unit
+SI;unit
+
+//Count Conversions
+English;unit>SI;unit;1.0
+SI;unit>English;unit;1.0
+
+//Currency
+English;$
+SI;$
+
+//Currency Conversions
+English;$>SI;$;1.0
+SI;$>English;$;1.0
+
+//Currency per Volume
+English;$/KAF;$/kaf
+SI;$/mcm
+
+//Currency per Volume Conversions
+English;$/KAF>SI;$/mcm;0.8107131937899125
+SI;$/mcm>English;$/KAF;1.233481837547520
+
+//Decay Coeffs
+English;1/ft
+SI;1/m
+
+//Decay Coeffs Conversions
+English;1/ft>SI;1/m;3.280839895013123
+SI;1/m>English;1/ft;0.30480
+
+//Elapsed Time
+English;day;DAY;DAYS;day;days
+English;hr;HOUR;HOURS;HR;hour;hours
+English;min;MIN;MINUTE;MINUTES;minute;minutes
+English;sec;SEC;SECOND;SECONDS;second;seconds
+SI;day;DAY;DAYS;day;days
+SI;hr;HOUR;HOURS;HR;hour;hours
+SI;min;MIN;MINUTE;MINUTES;minute;minutes
+SI;sec;SEC;SECOND;SECONDS;second;seconds
+
+//Elapsed Time Conversions
+English;day>SI;day;1.0
+English;day>English;hr;24.0
+English;day>English;min;1440.0
+English;day>English;sec;86400.0
+English;day>SI;hr;24.0
+English;day>SI;min;1440.0
+English;day>SI;sec;86400.0
+English;hr>SI;hr;1.0
+English;hr>English;day;0.04166666666666667
+English;hr>English;min;60.0
+English;hr>English;sec;3600.0
+English;hr>SI;day;0.04166666666666667
+English;hr>SI;min;60.0
+English;hr>SI;sec;3600.0
+English;min>SI;min;1.0
+English;min>English;day;0.0006944444444444444
+English;min>English;hr;0.01666666666666667
+English;min>English;sec;60.0
+English;min>SI;day;0.0006944444444444444
+English;min>SI;hr;0.01666666666666667
+English;min>SI;sec;60.0
+English;sec>SI;sec;1.0
+English;sec>English;day;0.00001157407407407407
+English;sec>English;hr;0.0002777777777777778
+English;sec>English;min;0.01666666666666667
+English;sec>SI;day;0.00001157407407407407
+English;sec>SI;hr;0.0002777777777777778
+English;sec>SI;min;0.01666666666666667
+SI;day>English;day;1.0
+SI;day>English;hr;24.0
+SI;day>English;min;1440.0
+SI;day>English;sec;86400.0
+SI;day>SI;hr;24.0
+SI;day>SI;min;1440.0
+SI;day>SI;sec;86400.0
+SI;hr>English;hr;1.0
+SI;hr>English;day;0.04166666666666667
+SI;hr>English;min;60.0
+SI;hr>English;sec;3600.0
+SI;hr>SI;day;0.04166666666666667
+SI;hr>SI;min;60.0
+SI;hr>SI;sec;3600.0
+SI;min>English;min;1.0
+SI;min>English;day;0.0006944444444444444
+SI;min>English;hr;0.01666666666666667
+SI;min>English;sec;60.0
+SI;min>SI;day;0.0006944444444444444
+SI;min>SI;hr;0.01666666666666667
+SI;min>SI;sec;60.0
+SI;sec>English;sec;1.0
+SI;sec>English;day;0.00001157407407407407
+SI;sec>English;hr;0.0002777777777777778
+SI;sec>English;min;0.01666666666666667
+SI;sec>SI;day;0.00001157407407407407
+SI;sec>SI;hr;0.0002777777777777778
+SI;sec>SI;min;0.01666666666666667
+
+//Electric Charge Rate
+English;ampere;AMP;AMPERE;AMPERES;AMPS;Amp;Ampere;Amperes;Amps;amp;amperes;amps
+SI;ampere;AMP;AMPERE;AMPERES;AMPS;Amp;Ampere;Amperes;Amps;amp;amperes;amps
+
+//Electric Charge Rate Conversions
+English;ampere>SI;ampere;1.0
+SI;ampere>English;ampere;1.0
+
+//Electromotive Potential
+English;volt;VOLT;VOLTS;Volt;Volts;volts
+SI;volt;VOLT;VOLTS;Volt;Volts;volts
+
+//Electromotive Potential Conversions
+English;volt>SI;volt;1.0
+SI;volt>English;volt;1.0
+
+//Energy
+English;GWh;GWH
+English;MWh;MWH
+English;TWh;TWH
+English;Wh;WH
+English;kWh;KWH
+SI;GWh;GWH
+SI;J;JOULE;JOULES;joule;joules
+SI;MJ;MEGAJOULE;MEGAJOULES;megajoule;megajoules
+SI;MWh;MWH
+SI;TWh;TWH
+SI;Wh;WH
+SI;cal;calorie;calories
+SI;kWh;KWH
+
+//Energy Conversions
+English;GWh>SI;GWh;1.0
+English;GWh>English;MWh;1.0E+3
+English;GWh>English;TWh;0.0010
+English;GWh>English;Wh;1.0E+9
+English;GWh>English;kWh;1.0E+6
+English;GWh>SI;J;3.60E+12
+English;GWh>SI;MJ;3.60E+6
+English;GWh>SI;MWh;1.0E+3
+English;GWh>SI;TWh;0.0010
+English;GWh>SI;Wh;1.0E+9
+English;GWh>SI;cal;860420650095.6023
+English;GWh>SI;kWh;1.0E+6
+English;MWh>SI;MWh;1.0
+English;MWh>English;GWh;0.0010
+English;MWh>English;TWh;0.0000010
+English;MWh>English;Wh;1.0E+6
+English;MWh>English;kWh;1.0E+3
+English;MWh>SI;GWh;0.0010
+English;MWh>SI;J;3.60E+9
+English;MWh>SI;MJ;3.60E+3
+English;MWh>SI;TWh;0.0000010
+English;MWh>SI;Wh;1.0E+6
+English;MWh>SI;cal;860420650.0956023
+English;MWh>SI;kWh;1.0E+3
+English;TWh>SI;TWh;1.0
+English;TWh>English;GWh;1.0E+3
+English;TWh>English;MWh;1.0E+6
+English;TWh>English;Wh;1.0E+12
+English;TWh>English;kWh;1.0E+9
+English;TWh>SI;GWh;1.0E+3
+English;TWh>SI;J;3.60E+15
+English;TWh>SI;MJ;3.60E+9
+English;TWh>SI;MWh;1.0E+6
+English;TWh>SI;Wh;1.0E+12
+English;TWh>SI;cal;860420650095602.3
+English;TWh>SI;kWh;1.0E+9
+English;Wh>SI;Wh;1.0
+English;Wh>English;GWh;1.0E-9
+English;Wh>English;MWh;0.0000010
+English;Wh>English;TWh;1.0E-12
+English;Wh>English;kWh;0.0010
+English;Wh>SI;GWh;1.0E-9
+English;Wh>SI;J;3.60E+3
+English;Wh>SI;MJ;0.00360
+English;Wh>SI;MWh;0.0000010
+English;Wh>SI;TWh;1.0E-12
+English;Wh>SI;cal;860.4206500956023
+English;Wh>SI;kWh;0.0010
+English;kWh>SI;kWh;1.0
+English;kWh>English;GWh;0.0000010
+English;kWh>English;MWh;0.0010
+English;kWh>English;TWh;1.0E-9
+English;kWh>English;Wh;1.0E+3
+English;kWh>SI;GWh;0.0000010
+English;kWh>SI;J;3.60E+6
+English;kWh>SI;MJ;3.60
+English;kWh>SI;MWh;0.0010
+English;kWh>SI;TWh;1.0E-9
+English;kWh>SI;Wh;1.0E+3
+English;kWh>SI;cal;860420.6500956023
+SI;GWh>English;GWh;1.0
+SI;GWh>English;MWh;1.0E+3
+SI;GWh>English;TWh;0.0010
+SI;GWh>English;Wh;1.0E+9
+SI;GWh>English;kWh;1.0E+6
+SI;GWh>SI;J;3.60E+12
+SI;GWh>SI;MJ;3.60E+6
+SI;GWh>SI;MWh;1.0E+3
+SI;GWh>SI;TWh;0.0010
+SI;GWh>SI;Wh;1.0E+9
+SI;GWh>SI;cal;860420650095.6023
+SI;GWh>SI;kWh;1.0E+6
+SI;J>English;GWh;2.777777777777778E-13
+SI;J>English;MWh;2.777777777777778E-10
+SI;J>English;TWh;2.777777777777778E-16
+SI;J>English;Wh;0.0002777777777777778
+SI;J>English;kWh;2.777777777777778E-7
+SI;J>SI;GWh;2.777777777777778E-13
+SI;J>SI;MJ;0.0000010
+SI;J>SI;MWh;2.777777777777778E-10
+SI;J>SI;TWh;2.777777777777778E-16
+SI;J>SI;Wh;0.0002777777777777778
+SI;J>SI;cal;0.2390057361376673
+SI;J>SI;kWh;2.777777777777778E-7
+SI;MJ>English;GWh;2.777777777777778E-7
+SI;MJ>English;MWh;0.0002777777777777778
+SI;MJ>English;TWh;2.777777777777778E-10
+SI;MJ>English;Wh;277.7777777777778
+SI;MJ>English;kWh;0.2777777777777778
+SI;MJ>SI;GWh;2.777777777777778E-7
+SI;MJ>SI;J;1.0E+6
+SI;MJ>SI;MWh;0.0002777777777777778
+SI;MJ>SI;TWh;2.777777777777778E-10
+SI;MJ>SI;Wh;277.7777777777778
+SI;MJ>SI;cal;239005.7361376673
+SI;MJ>SI;kWh;0.2777777777777778
+SI;MWh>English;MWh;1.0
+SI;MWh>English;GWh;0.0010
+SI;MWh>English;TWh;0.0000010
+SI;MWh>English;Wh;1.0E+6
+SI;MWh>English;kWh;1.0E+3
+SI;MWh>SI;GWh;0.0010
+SI;MWh>SI;J;3.60E+9
+SI;MWh>SI;MJ;3.60E+3
+SI;MWh>SI;TWh;0.0000010
+SI;MWh>SI;Wh;1.0E+6
+SI;MWh>SI;cal;860420650.0956023
+SI;MWh>SI;kWh;1.0E+3
+SI;TWh>English;TWh;1.0
+SI;TWh>English;GWh;1.0E+3
+SI;TWh>English;MWh;1.0E+6
+SI;TWh>English;Wh;1.0E+12
+SI;TWh>English;kWh;1.0E+9
+SI;TWh>SI;GWh;1.0E+3
+SI;TWh>SI;J;3.60E+15
+SI;TWh>SI;MJ;3.60E+9
+SI;TWh>SI;MWh;1.0E+6
+SI;TWh>SI;Wh;1.0E+12
+SI;TWh>SI;cal;860420650095602.3
+SI;TWh>SI;kWh;1.0E+9
+SI;Wh>English;Wh;1.0
+SI;Wh>English;GWh;1.0E-9
+SI;Wh>English;MWh;0.0000010
+SI;Wh>English;TWh;1.0E-12
+SI;Wh>English;kWh;0.0010
+SI;Wh>SI;GWh;1.0E-9
+SI;Wh>SI;J;3.60E+3
+SI;Wh>SI;MJ;0.00360
+SI;Wh>SI;MWh;0.0000010
+SI;Wh>SI;TWh;1.0E-12
+SI;Wh>SI;cal;860.4206500956023
+SI;Wh>SI;kWh;0.0010
+SI;cal>English;GWh;1.162222222222222E-12
+SI;cal>English;MWh;1.162222222222222E-9
+SI;cal>English;TWh;1.162222222222222E-15
+SI;cal>English;Wh;0.001162222222222222
+SI;cal>English;kWh;0.000001162222222222222
+SI;cal>SI;GWh;1.162222222222222E-12
+SI;cal>SI;J;4.1840
+SI;cal>SI;MJ;0.0000041840
+SI;cal>SI;MWh;1.162222222222222E-9
+SI;cal>SI;TWh;1.162222222222222E-15
+SI;cal>SI;Wh;0.001162222222222222
+SI;cal>SI;kWh;0.000001162222222222222
+SI;kWh>English;kWh;1.0
+SI;kWh>English;GWh;0.0000010
+SI;kWh>English;MWh;0.0010
+SI;kWh>English;TWh;1.0E-9
+SI;kWh>English;Wh;1.0E+3
+SI;kWh>SI;GWh;0.0000010
+SI;kWh>SI;J;3.60E+6
+SI;kWh>SI;MJ;3.60
+SI;kWh>SI;MWh;0.0010
+SI;kWh>SI;TWh;1.0E-9
+SI;kWh>SI;Wh;1.0E+3
+SI;kWh>SI;cal;860420.6500956023
+
+//Force
+English;lb;POUNDS;lbf;lbs;pounds
+SI;N;newton;newtons
+
+//Force Conversions
+English;lb>SI;N;4.44822161526050
+SI;N>English;lb;0.2248089430997105
+
+//Frequency
+English;B;B-UNIT;B_UNIT;b;b-unit;b_unit
+English;Hz;HZ;cycles/s;cycles/sec;hz
+English;MHz;MHZ;mHz;mhz
+English;kHz;KHZ;KHz;khz
+SI;B;B-UNIT;B_UNIT;b;b-unit;b_unit
+SI;Hz;HZ;cycles/s;cycles/sec;hz
+SI;MHz;MHZ;mHz;mhz
+SI;kHz;KHZ;KHz;khz
+
+//Frequency Conversions
+English;B>SI;B;1.0
+English;B>English;Hz;ARG 0|1000|*|.5|^
+English;B>English;MHz;ARG 0|1000|*|.5|^|0.0000010|*
+English;B>English;kHz;ARG 0|1000|*|.5|^|0.0010|*
+English;B>SI;Hz;ARG 0|1000|*|.5|^
+English;B>SI;MHz;ARG 0|1000|*|.5|^|0.0000010|*
+English;B>SI;kHz;ARG 0|1000|*|.5|^|0.0010|*
+English;Hz>SI;Hz;1.0
+English;Hz>English;B;ARG 0|2|^|1000|/
+English;Hz>English;MHz;0.0000010
+English;Hz>English;kHz;0.0010
+English;Hz>SI;B;ARG 0|2|^|1000|/
+English;Hz>SI;MHz;0.0000010
+English;Hz>SI;kHz;0.0010
+English;MHz>SI;MHz;1.0
+English;MHz>English;B;ARG 0|1.0E+6|*|2|^|1000|/
+English;MHz>English;Hz;1.0E+6
+English;MHz>English;kHz;1.0E+3
+English;MHz>SI;B;ARG 0|1.0E+6|*|2|^|1000|/
+English;MHz>SI;Hz;1.0E+6
+English;MHz>SI;kHz;1.0E+3
+English;kHz>SI;kHz;1.0
+English;kHz>English;B;ARG 0|1.0E+3|*|2|^|1000|/
+English;kHz>English;Hz;1.0E+3
+English;kHz>English;MHz;0.0010
+English;kHz>SI;B;ARG 0|1.0E+3|*|2|^|1000|/
+English;kHz>SI;Hz;1.0E+3
+English;kHz>SI;MHz;0.0010
+SI;B>English;B;1.0
+SI;B>English;Hz;ARG 0|1000|*|.5|^
+SI;B>English;MHz;ARG 0|1000|*|.5|^|0.0000010|*
+SI;B>English;kHz;ARG 0|1000|*|.5|^|0.0010|*
+SI;B>SI;Hz;ARG 0|1000|*|.5|^
+SI;B>SI;MHz;ARG 0|1000|*|.5|^|0.0000010|*
+SI;B>SI;kHz;ARG 0|1000|*|.5|^|0.0010|*
+SI;Hz>English;Hz;1.0
+SI;Hz>English;B;ARG 0|2|^|1000|/
+SI;Hz>English;MHz;0.0000010
+SI;Hz>English;kHz;0.0010
+SI;Hz>SI;B;ARG 0|2|^|1000|/
+SI;Hz>SI;MHz;0.0000010
+SI;Hz>SI;kHz;0.0010
+SI;MHz>English;MHz;1.0
+SI;MHz>English;B;ARG 0|1.0E+6|*|2|^|1000|/
+SI;MHz>English;Hz;1.0E+6
+SI;MHz>English;kHz;1.0E+3
+SI;MHz>SI;B;ARG 0|1.0E+6|*|2|^|1000|/
+SI;MHz>SI;Hz;1.0E+6
+SI;MHz>SI;kHz;1.0E+3
+SI;kHz>English;kHz;1.0
+SI;kHz>English;B;ARG 0|1.0E+3|*|2|^|1000|/
+SI;kHz>English;Hz;1.0E+3
+SI;kHz>English;MHz;0.0010
+SI;kHz>SI;B;ARG 0|1.0E+3|*|2|^|1000|/
+SI;kHz>SI;Hz;1.0E+3
+SI;kHz>SI;MHz;0.0010
+
+//Heating and Cooling
+English;degF-day;F-day
+SI;degC-day;C-day
+
+//Heating and Cooling Conversions
+English;degF-day>SI;degC-day;0.5555555555555556
+SI;degC-day>English;degF-day;1.800000000000000
+
+//Hydrogen Ion Concentration
+English;su
+SI;su
+
+//Hydrogen Ion Concentration Conversions
+English;su>SI;su;1.0
+SI;su>English;su;1.0
+
+//Irradiance
+English;W/m2
+English;langley/min
+SI;W/m2
+SI;langley/min
+
+//Irradiance Conversions
+English;W/m2>SI;W/m2;1.0
+English;W/m2>English;langley/min;0.001434034416826004
+English;W/m2>SI;langley/min;0.001434034416826004
+English;langley/min>SI;langley/min;1.0
+English;langley/min>English;W/m2;697.3333333333333
+English;langley/min>SI;W/m2;697.3333333333333
+SI;W/m2>English;W/m2;1.0
+SI;W/m2>English;langley/min;0.001434034416826004
+SI;W/m2>SI;langley/min;0.001434034416826004
+SI;langley/min>English;langley/min;1.0
+SI;langley/min>English;W/m2;697.3333333333333
+SI;langley/min>SI;W/m2;697.3333333333333
+
+//Irradiation
+English;J/m2
+English;langley
+SI;J/m2
+SI;langley
+
+//Irradiation Conversions
+English;J/m2>SI;J/m2;1.0
+English;J/m2>English;langley;0.00002390057361376673
+English;J/m2>SI;langley;0.00002390057361376673
+English;langley>SI;langley;1.0
+English;langley>English;J/m2;41840
+English;langley>SI;J/m2;41840
+SI;J/m2>English;J/m2;1.0
+SI;J/m2>English;langley;0.00002390057361376673
+SI;J/m2>SI;langley;0.00002390057361376673
+SI;langley>English;langley;1.0
+SI;langley>English;J/m2;41840
+SI;langley>SI;J/m2;41840
+
+//Length
+English;ft;FEET;FT;Feet;feet;foot
+English;ftUS;SURVEY FEET;SURVEY FOOT;survey feet;survey foot;foot_survey_us
+English;in;IN;INCHES;Inch;inch;inches
+English;mi;Mile;mile;miles
+SI;cm;centimeter;centimeters
+SI;km;kilometer;kilometers
+SI;m;M;METERS;METER;meter;meters;metre;metres
+SI;mm;MM;millimeter;millimeters
+
+//Length Conversions
+English;ft>English;ftUS;0.9999980
+English;ft>English;in;12.0
+English;ft>English;mi;0.0001893939393939394
+English;ft>SI;cm;30.480
+English;ft>SI;km;0.00030480
+English;ft>SI;m;0.30480
+English;ft>SI;mm;304.80
+English;ftUS>English;ft;1.000002000004000
+English;ftUS>English;in;12.00002400004800
+English;ftUS>English;mi;0.0001893943181825758
+English;ftUS>SI;cm;30.48006096012192
+English;ftUS>SI;km;0.0003048006096012192
+English;ftUS>SI;m;0.3048006096012192
+English;ftUS>SI;mm;304.8006096012192
+English;in>English;ft;0.08333333333333333
+English;in>English;ftUS;0.08333316666666666
+English;in>English;mi;0.00001578282828282828
+English;in>SI;cm;2.540000000000000
+English;in>SI;km;0.00002540000000000000
+English;in>SI;m;0.02540000000000000
+English;in>SI;mm;25.40000000000000
+English;mi>English;ft;5280.0
+English;mi>English;ftUS;5279.9894400
+English;mi>English;in;63360.0
+English;mi>SI;cm;160934.400
+English;mi>SI;km;1.60934400
+English;mi>SI;m;1609.34400
+English;mi>SI;mm;1609344.00
+SI;cm>English;ft;0.03280839895013123
+SI;cm>English;ftUS;0.03280833333333333
+SI;cm>English;in;0.3937007874015748
+SI;cm>English;mi;0.000006213711922373339
+SI;cm>SI;km;0.000010
+SI;cm>SI;m;0.010
+SI;cm>SI;mm;10
+SI;km>English;ft;3280.839895013123
+SI;km>English;ftUS;3280.833333333333
+SI;km>English;in;39370.07874015748
+SI;km>English;mi;0.6213711922373339
+SI;km>SI;cm;1.0E+5
+SI;km>SI;m;1.0E+3
+SI;km>SI;mm;1.0E+6
+SI;m>English;ft;3.280839895013123
+SI;m>English;ftUS;3.280833333333333
+SI;m>English;in;39.37007874015748
+SI;m>English;mi;0.0006213711922373339
+SI;m>SI;cm;1.0E+2
+SI;m>SI;km;0.0010
+SI;m>SI;mm;1.0E+3
+SI;mm>English;ft;0.003280839895013123
+SI;mm>English;ftUS;0.003280833333333333
+SI;mm>English;in;0.03937007874015748
+SI;mm>English;mi;6.213711922373339E-7
+SI;mm>SI;cm;0.10
+SI;mm>SI;km;0.0000010
+SI;mm>SI;m;0.0010
+
+//Linear Speed
+English;ft/hr
+English;ft/s;fps;ft/sec
+English;in/day
+English;in/hr
+English;knot;knots;kt
+English;mph
+SI;cm/day
+SI;kph
+SI;m/hr
+SI;m/s
+SI;mm/day
+SI;mm/hr
+
+//Linear Speed Conversions
+English;ft/hr>English;ft/s;0.0002777777777777778
+English;ft/hr>English;in/day;288.0
+English;ft/hr>English;in/hr;12.0
+English;ft/hr>English;knot;0.0001645788336933046
+English;ft/hr>English;mph;0.0001893939393939394
+English;ft/hr>SI;cm/day;731.520
+English;ft/hr>SI;kph;0.00030480
+English;ft/hr>SI;m/hr;0.30480
+English;ft/hr>SI;m/s;0.00008466666666666667
+English;ft/hr>SI;mm/day;7315.20
+English;ft/hr>SI;mm/hr;304.80
+English;ft/s>English;ft/hr;3600.0
+English;ft/s>English;in/day;1036800.0
+English;ft/s>English;in/hr;43200.0
+English;ft/s>English;knot;0.5924838012958964
+English;ft/s>English;mph;0.6818181818181818
+English;ft/s>SI;cm/day;2633472.000
+English;ft/s>SI;kph;1.09728000
+English;ft/s>SI;m/hr;1097.28000
+English;ft/s>SI;m/s;0.30480
+English;ft/s>SI;mm/day;26334720.00
+English;ft/s>SI;mm/hr;1097280.00
+English;in/day>English;ft/hr;0.003472222222222222
+English;in/day>English;ft/s;9.645061728395061E-7
+English;in/day>English;in/hr;0.04166666666666667
+English;in/day>English;knot;5.714542836573075E-7
+English;in/day>English;mph;6.57617845117845E-7
+English;in/day>SI;cm/day;2.540000000000000
+English;in/day>SI;kph;0.000001058333333333333
+English;in/day>SI;m/hr;0.001058333333333333
+English;in/day>SI;m/s;2.939814814814815E-7
+English;in/day>SI;mm/day;25.40000000000000
+English;in/day>SI;mm/hr;1.058333333333333
+English;in/hr>English;ft/hr;0.08333333333333333
+English;in/hr>English;ft/s;0.00002314814814814815
+English;in/hr>English;in/day;24.0
+English;in/hr>English;knot;0.00001371490280777538
+English;in/hr>English;mph;0.00001578282828282828
+English;in/hr>SI;cm/day;60.96000000000000
+English;in/hr>SI;kph;0.00002540000000000000
+English;in/hr>SI;m/hr;0.02540000000000000
+English;in/hr>SI;m/s;0.000007055555555555556
+English;in/hr>SI;mm/day;609.6000000000000
+English;in/hr>SI;mm/hr;25.40000000000000
+English;knot>English;ft/hr;6076.115485564306
+English;knot>English;ft/s;1.687809857101196
+English;knot>English;in/day;1749921.259842520
+English;knot>English;in/hr;72913.38582677167
+English;knot>English;mph;1.150779448023542
+English;knot>SI;cm/day;4444800.000000000
+English;knot>SI;kph;1.852000000000000
+English;knot>SI;m/hr;1852.000000000000
+English;knot>SI;m/s;0.5144444444444444
+English;knot>SI;mm/day;44448000.00000000
+English;knot>SI;mm/hr;1852000.000000000
+English;mph>English;ft/hr;5280.0
+English;mph>English;ft/s;1.466666666666667
+English;mph>English;in/day;1520640.0
+English;mph>English;in/hr;63360.0
+English;mph>English;knot;0.8689762419006480
+English;mph>SI;cm/day;3862425.600
+English;mph>SI;kph;1.60934400
+English;mph>SI;m/hr;1609.34400
+English;mph>SI;m/s;0.44704
+English;mph>SI;mm/day;38624256.00
+English;mph>SI;mm/hr;1609344.00
+SI;cm/day>English;ft/hr;0.001367016622922135
+SI;cm/day>English;ft/s;3.797268397005929E-7
+SI;cm/day>English;in/day;0.3937007874015748
+SI;cm/day>English;in/hr;0.01640419947506562
+SI;cm/day>English;knot;2.249820014398847E-7
+SI;cm/day>English;mph;2.589046634322225E-7
+SI;cm/day>SI;kph;4.166666666666667E-7
+SI;cm/day>SI;m/hr;0.0004166666666666667
+SI;cm/day>SI;m/s;1.157407407407407E-7
+SI;cm/day>SI;mm/day;10
+SI;cm/day>SI;mm/hr;0.4166666666666667
+SI;kph>English;ft/hr;3280.839895013123
+SI;kph>English;ft/s;0.9113444152814231
+SI;kph>English;in/day;944881.8897637795
+SI;kph>English;in/hr;39370.07874015748
+SI;kph>English;knot;0.5399568034557236
+SI;kph>English;mph;0.6213711922373339
+SI;kph>SI;cm/day;2.40E+6
+SI;kph>SI;m/hr;1.0E+3
+SI;kph>SI;m/s;0.2777777777777778
+SI;kph>SI;mm/day;2.40E+7
+SI;kph>SI;mm/hr;1.0E+6
+SI;m/hr>English;ft/hr;3.280839895013123
+SI;m/hr>English;ft/s;0.0009113444152814231
+SI;m/hr>English;in/day;944.8818897637795
+SI;m/hr>English;in/hr;39.37007874015748
+SI;m/hr>English;knot;0.0005399568034557236
+SI;m/hr>English;mph;0.0006213711922373339
+SI;m/hr>SI;cm/day;2.40E+3
+SI;m/hr>SI;kph;0.0010
+SI;m/hr>SI;m/s;0.0002777777777777778
+SI;m/hr>SI;mm/day;2.40E+4
+SI;m/hr>SI;mm/hr;1.0E+3
+SI;m/s>English;ft/hr;11811.02362204724
+SI;m/s>English;ft/s;3.280839895013123
+SI;m/s>English;in/day;3401574.803149606
+SI;m/s>English;in/hr;141732.2834645669
+SI;m/s>English;knot;1.943844492440605
+SI;m/s>English;mph;2.236936292054402
+SI;m/s>SI;cm/day;8.64000E+6
+SI;m/s>SI;kph;3.6000
+SI;m/s>SI;m/hr;3600.0
+SI;m/s>SI;mm/day;8.64000E+7
+SI;m/s>SI;mm/hr;3.6000E+6
+SI;mm/day>English;ft/hr;0.0001367016622922135
+SI;mm/day>English;ft/s;3.797268397005929E-8
+SI;mm/day>English;in/day;0.03937007874015748
+SI;mm/day>English;in/hr;0.001640419947506562
+SI;mm/day>English;knot;2.249820014398847E-8
+SI;mm/day>English;mph;2.589046634322225E-8
+SI;mm/day>SI;cm/day;0.10
+SI;mm/day>SI;kph;4.166666666666667E-8
+SI;mm/day>SI;m/hr;0.00004166666666666667
+SI;mm/day>SI;m/s;1.157407407407407E-8
+SI;mm/day>SI;mm/hr;0.04166666666666667
+SI;mm/hr>English;ft/hr;0.003280839895013123
+SI;mm/hr>English;ft/s;9.113444152814231E-7
+SI;mm/hr>English;in/day;0.9448818897637795
+SI;mm/hr>English;in/hr;0.03937007874015748
+SI;mm/hr>English;knot;5.399568034557236E-7
+SI;mm/hr>English;mph;6.213711922373339E-7
+SI;mm/hr>SI;cm/day;2.40
+SI;mm/hr>SI;kph;0.0000010
+SI;mm/hr>SI;m/hr;0.0010
+SI;mm/hr>SI;m/s;2.777777777777778E-7
+SI;mm/hr>SI;mm/day;24.0
+
+//Mass
+English;lbm
+English;ton
+SI;gm;g
+SI;kg
+SI;mg
+SI;tonne
+
+//Mass Conversions
+English;lbm>English;ton;0.0005
+English;lbm>SI;gm;453.592370
+English;lbm>SI;kg;0.453592370
+English;lbm>SI;mg;453592.370
+English;lbm>SI;tonne;0.000453592370
+English;ton>English;lbm;2.0E+3
+English;ton>SI;gm;907184.740
+English;ton>SI;kg;907.184740
+English;ton>SI;mg;907184740
+English;ton>SI;tonne;0.907184740
+SI;gm>English;lbm;0.002204622621848776
+SI;gm>English;ton;0.000001102311310924388
+SI;gm>SI;kg;0.0010
+SI;gm>SI;mg;1.0E+3
+SI;gm>SI;tonne;0.0000010
+SI;kg>English;lbm;2.204622621848776
+SI;kg>English;ton;0.001102311310924388
+SI;kg>SI;gm;1.0E+3
+SI;kg>SI;mg;1.0E+6
+SI;kg>SI;tonne;0.0010
+SI;mg>English;lbm;0.000002204622621848776
+SI;mg>English;ton;1.102311310924388E-9
+SI;mg>SI;gm;0.0010
+SI;mg>SI;kg;0.0000010
+SI;mg>SI;tonne;1.0E-9
+SI;tonne>English;lbm;2204.622621848776
+SI;tonne>English;ton;1.102311310924388
+SI;tonne>SI;gm;1.0E+6
+SI;tonne>SI;kg;1.0E+3
+SI;tonne>SI;mg;1.0E+9
+
+//Mass Concentration
+English;g/l;gm/l;grams per liter;grams/liter
+English;lb/ft3;lbm/ft3;lbs/ft3
+English;ppm
+SI;g/l;gm/l;grams per liter;grams/liter
+SI;g/m3;gm/m3
+SI;g/cm3;gm/cm3
+SI;mg/l;mg/L;millgrams/liter;milligrams per liter
+SI;ppm
+
+//Mass Concentration Conversions
+English;g/l>SI;g/l;1.0
+English;g/l>English;lb/ft3;0.06242796057614462
+English;g/l>English;ppm;1.0E+3
+English;g/l>SI;g/m3;1.0E+3
+English;g/l>SI;g/cm3;0.0010
+English;g/l>SI;mg/l;1.0E+3
+English;g/l>SI;ppm;1.0E+3
+English;lb/ft3>English;g/l;16.01846337396014
+English;lb/ft3>English;ppm;16018.46337396014
+English;lb/ft3>SI;g/l;16.01846337396014
+English;lb/ft3>SI;g/m3;16018.46337396014
+English;lb/ft3>SI;g/cm3;0.01601846337396014
+English;lb/ft3>SI;mg/l;16018.46337396014
+English;lb/ft3>SI;ppm;16018.46337396014
+English;ppm>SI;ppm;1.0
+English;ppm>English;g/l;0.0010
+English;ppm>English;lb/ft3;0.00006242796057614462
+English;ppm>SI;g/l;0.0010
+English;ppm>SI;g/m3;1.0
+English;ppm>SI;g/cm3;0.0000010
+English;ppm>SI;mg/l;1.0
+SI;g/l>English;g/l;1.0
+SI;g/l>English;lb/ft3;0.06242796057614462
+SI;g/l>English;ppm;1.0E+3
+SI;g/l>SI;g/m3;1.0E+3
+SI;g/l>SI;g/cm3;0.0010
+SI;g/l>SI;mg/l;1.0E+3
+SI;g/l>SI;ppm;1.0E+3
+SI;g/m3>English;g/l;0.0010
+SI;g/m3>English;lb/ft3;0.00006242796057614462
+SI;g/m3>English;ppm;1.0
+SI;g/m3>SI;g/l;0.0010
+SI;g/m3>SI;g/cm3;0.0000010
+SI;g/m3>SI;mg/l;1.0
+SI;g/m3>SI;ppm;1.0
+SI;g/cm3>English;g/l;1.0E+3
+SI;g/cm3>English;lb/ft3;62.42796057614462
+SI;g/cm3>English;ppm;1.0E+6
+SI;g/cm3>SI;g/l;1.0E+3
+SI;g/cm3>SI;g/m3;1.0E+6
+SI;g/cm3>SI;mg/l;1.0E+6
+SI;g/cm3>SI;ppm;1.0E+6
+SI;mg/l>English;g/l;0.0010
+SI;mg/l>English;lb/ft3;0.00006242796057614462
+SI;mg/l>English;ppm;1.0
+SI;mg/l>SI;g/l;0.0010
+SI;mg/l>SI;g/m3;1.0
+SI;mg/l>SI;g/cm3;0.0000010
+SI;mg/l>SI;ppm;1.0
+SI;ppm>English;ppm;1.0
+SI;ppm>English;g/l;0.0010
+SI;ppm>English;lb/ft3;0.00006242796057614462
+SI;ppm>SI;g/l;0.0010
+SI;ppm>SI;g/m3;1.0
+SI;ppm>SI;g/cm3;0.0000010
+SI;ppm>SI;mg/l;1.0
+
+//Mass Rate
+English;ton/day
+SI;tonne/day
+
+//Mass Rate Conversions
+English;ton/day>SI;tonne/day;0.907184740
+SI;tonne/day>English;ton/day;1.102311310924388
+
+//Monthly Volume Rate
+English;KAF/mon;1000 ac-ft/mon
+SI;mcm/mon
+
+//Monthly Volume Rate Conversions
+English;KAF/mon>SI;mcm/mon;1.233481837547520
+SI;mcm/mon>English;KAF/mon;0.8107131937899125
+
+//None
+English;%;PERCENT;percent
+English;n/a
+SI;%;PERCENT;percent
+SI;n/a
+
+//None Conversions
+English;%>SI;%;1.0
+English;%>English;n/a;0.010
+English;%>SI;n/a;0.010
+English;n/a>SI;n/a;1.0
+English;n/a>English;%;1.0E+2
+English;n/a>SI;%;1.0E+2
+SI;%>English;%;1.0
+SI;%>English;n/a;0.010
+SI;%>SI;n/a;0.010
+SI;n/a>English;n/a;1.0
+SI;n/a>English;%;1.0E+2
+SI;n/a>SI;%;1.0E+2
+
+//Penalty
+English;K$;k$
+SI;K$;k$
+
+//Penalty Conversions
+English;K$>SI;K$;1.0
+SI;K$>English;K$;1.0
+
+//Phase Change Rate Index
+English;in/deg-day;in/deg-d
+SI;mm/deg-day;mm/deg-d
+
+//Phase Change Rate Index Conversions
+English;in/deg-day>SI;mm/deg-day;45.72000000000000
+SI;mm/deg-day>English;in/deg-day;0.02187226596675416
+
+//Power
+English;GW
+English;MW
+English;TW
+English;W
+English;kW;KW
+SI;GW
+SI;MW
+SI;TW
+SI;W
+SI;kW;KW
+
+//Power Conversions
+English;GW>SI;GW;1.0
+English;GW>English;MW;1.0E+3
+English;GW>English;TW;0.0010
+English;GW>English;W;1.0E+9
+English;GW>English;kW;1.0E+6
+English;GW>SI;MW;1.0E+3
+English;GW>SI;TW;0.0010
+English;GW>SI;W;1.0E+9
+English;GW>SI;kW;1.0E+6
+English;MW>SI;MW;1.0
+English;MW>English;GW;0.0010
+English;MW>English;TW;0.0000010
+English;MW>English;W;1.0E+6
+English;MW>English;kW;1.0E+3
+English;MW>SI;GW;0.0010
+English;MW>SI;TW;0.0000010
+English;MW>SI;W;1.0E+6
+English;MW>SI;kW;1.0E+3
+English;TW>SI;TW;1.0
+English;TW>English;GW;1.0E+3
+English;TW>English;MW;1.0E+6
+English;TW>English;W;1.0E+12
+English;TW>English;kW;1.0E+9
+English;TW>SI;GW;1.0E+3
+English;TW>SI;MW;1.0E+6
+English;TW>SI;W;1.0E+12
+English;TW>SI;kW;1.0E+9
+English;W>SI;W;1.0
+English;W>English;GW;1.0E-9
+English;W>English;MW;0.0000010
+English;W>English;TW;1.0E-12
+English;W>English;kW;0.0010
+English;W>SI;GW;1.0E-9
+English;W>SI;MW;0.0000010
+English;W>SI;TW;1.0E-12
+English;W>SI;kW;0.0010
+English;kW>SI;kW;1.0
+English;kW>English;GW;0.0000010
+English;kW>English;MW;0.0010
+English;kW>English;TW;1.0E-9
+English;kW>English;W;1.0E+3
+English;kW>SI;GW;0.0000010
+English;kW>SI;MW;0.0010
+English;kW>SI;TW;1.0E-9
+English;kW>SI;W;1.0E+3
+SI;GW>English;GW;1.0
+SI;GW>English;MW;1.0E+3
+SI;GW>English;TW;0.0010
+SI;GW>English;W;1.0E+9
+SI;GW>English;kW;1.0E+6
+SI;GW>SI;MW;1.0E+3
+SI;GW>SI;TW;0.0010
+SI;GW>SI;W;1.0E+9
+SI;GW>SI;kW;1.0E+6
+SI;MW>English;MW;1.0
+SI;MW>English;GW;0.0010
+SI;MW>English;TW;0.0000010
+SI;MW>English;W;1.0E+6
+SI;MW>English;kW;1.0E+3
+SI;MW>SI;GW;0.0010
+SI;MW>SI;TW;0.0000010
+SI;MW>SI;W;1.0E+6
+SI;MW>SI;kW;1.0E+3
+SI;TW>English;TW;1.0
+SI;TW>English;GW;1.0E+3
+SI;TW>English;MW;1.0E+6
+SI;TW>English;W;1.0E+12
+SI;TW>English;kW;1.0E+9
+SI;TW>SI;GW;1.0E+3
+SI;TW>SI;MW;1.0E+6
+SI;TW>SI;W;1.0E+12
+SI;TW>SI;kW;1.0E+9
+SI;W>English;W;1.0
+SI;W>English;GW;1.0E-9
+SI;W>English;MW;0.0000010
+SI;W>English;TW;1.0E-12
+SI;W>English;kW;0.0010
+SI;W>SI;GW;1.0E-9
+SI;W>SI;MW;0.0000010
+SI;W>SI;TW;1.0E-12
+SI;W>SI;kW;0.0010
+SI;kW>English;kW;1.0
+SI;kW>English;GW;0.0000010
+SI;kW>English;MW;0.0010
+SI;kW>English;TW;1.0E-9
+SI;kW>English;W;1.0E+3
+SI;kW>SI;GW;0.0000010
+SI;kW>SI;MW;0.0010
+SI;kW>SI;TW;1.0E-9
+SI;kW>SI;W;1.0E+3
+
+//Pressure
+English;bar;ATM;ATMOSPHERE;ATMOSPHERES;BAR;BARS;atm;atmosphere;atmospheres;bars
+English;in-hg
+English;psi;lbs/sqin
+SI;bar;ATM;ATMOSPHERE;ATMOSPHERES;BAR;BARS;atm;atmosphere;atmospheres;bars
+SI;kPa;kN/m2
+SI;mb;mbar;mbars;millibar;millibars
+SI;mm-hg
+
+//Pressure Conversions
+English;bar>SI;bar;1.0
+English;bar>English;in-hg;29.52998016471232
+English;bar>English;psi;14.50377438972831
+English;bar>SI;kPa;1.0E+2
+English;bar>SI;mb;1.0E+3
+English;bar>SI;mm-hg;750.0615050434136
+English;in-hg>English;bar;0.033863890
+English;in-hg>English;psi;0.4911542205185767
+English;in-hg>SI;bar;0.033863890
+English;in-hg>SI;kPa;3.3863890
+English;in-hg>SI;mb;33.863890
+English;in-hg>SI;mm-hg;25.40000000000000
+English;psi>English;bar;0.068947570
+English;psi>English;in-hg;2.036020374505114
+English;psi>SI;bar;0.068947570
+English;psi>SI;kPa;6.8947570
+English;psi>SI;mb;68.947570
+English;psi>SI;mm-hg;51.71491812328611
+SI;bar>English;bar;1.0
+SI;bar>English;in-hg;29.52998016471232
+SI;bar>English;psi;14.50377438972831
+SI;bar>SI;kPa;1.0E+2
+SI;bar>SI;mb;1.0E+3
+SI;bar>SI;mm-hg;750.0615050434136
+SI;kPa>English;bar;0.010
+SI;kPa>English;in-hg;0.2952998016471232
+SI;kPa>English;psi;0.1450377438972831
+SI;kPa>SI;bar;0.010
+SI;kPa>SI;mb;10
+SI;kPa>SI;mm-hg;7.500615050434136
+SI;mb>English;bar;0.0010
+SI;mb>English;in-hg;0.02952998016471232
+SI;mb>English;psi;0.01450377438972831
+SI;mb>SI;bar;0.0010
+SI;mb>SI;kPa;0.10
+SI;mb>SI;mm-hg;0.7500615050434136
+SI;mm-hg>English;bar;0.0013332240
+SI;mm-hg>English;in-hg;0.03937007874015748
+SI;mm-hg>English;psi;0.01933678010697114
+SI;mm-hg>SI;bar;0.0013332240
+SI;mm-hg>SI;kPa;0.13332240
+SI;mm-hg>SI;mb;1.3332240
+
+//Temperature
+English;F;DEG F;DEG-F;Deg-F;DegF;Fahrenheit;deg F;deg f;degF
+SI;C;Celsius;Centigrade;DEG C;DEG-C;Deg-C;DegC;deg C;deg c;degC
+SI;K;KELVIN;KELVINS;k;kelvin;kelvins
+
+//Temperature Conversions
+English;F>SI;C;ARG 0|0.5555555555555556|*|17.77777777777778|-
+English;F>SI;K;ARG 0|32|-|1.8|/|273.15|+
+SI;C>English;F;ARG 0|1.800000000000000|*|32|+
+SI;C>SI;K;ARG 0|273.15|+
+SI;K>English;F;ARG 0|273.15|-|1.8|*|32|+
+SI;K>SI;C;ARG 0|273.15|-
+
+//Turbidity
+English;fnu;FNU
+English;jtu;JTU
+English;ntu;NTU
+SI;fnu;FNU
+SI;jtu;JTU
+SI;ntu;NTU
+
+//Turbidity Conversions
+English;fnu>SI;fnu;1.0
+English;jtu>SI;jtu;1.0
+English;ntu>SI;ntu;1.0
+SI;fnu>English;fnu;1.0
+SI;jtu>English;jtu;1.0
+SI;ntu>English;ntu;1.0
+
+//Volume
+English;ac-ft;AC-FT;ACFT;acft;acre-feet;acre-ft
+English;dsf;DSF;SFD;cfs-day;second-foot-day;sfd
+English;ft3;cu ft;cubic feet
+English;gal;GAL;gallon;gallons
+English;kaf;1000 ac-ft;KAF
+English;kdsf
+English;kgal;1000 gallon;1000 gallons;KGAL;TGAL;tgal
+English;mgal;MGAL;million gallon;millon gallons
+English;mile3;cu mile;cu miles
+SI;1000 m3;1000 M3;1000 cu m
+SI;km3;cu km
+SI;m3;M3;cu m;cu meter;cu meters;cubic meters
+SI;mcm;1000000 m3
+
+//Volume Conversions
+English;ac-ft>English;dsf;0.5041666666666667
+English;ac-ft>English;ft3;43560.0
+English;ac-ft>English;gal;325851.4099779681
+English;ac-ft>English;kaf;0.0010
+English;ac-ft>English;kdsf;0.0005041666666666667
+English;ac-ft>English;kgal;325.8514099779681
+English;ac-ft>English;mgal;0.3258514099779681
+English;ac-ft>English;mile3;2.959280303030303E-7
+English;ac-ft>SI;1000 m3;1.233481837547520
+English;ac-ft>SI;km3;0.000001233481837547520
+English;ac-ft>SI;m3;1233.481837547520
+English;ac-ft>SI;mcm;0.001233481837547520
+English;dsf>English;ac-ft;1.983471074380165
+English;dsf>English;ft3;86400.0
+English;dsf>English;gal;646316.8462372920
+English;dsf>English;kaf;0.001983471074380165
+English;dsf>English;kdsf;0.0010
+English;dsf>English;kgal;646.3168462372920
+English;dsf>English;mgal;0.6463168462372920
+English;dsf>English;mile3;5.869646882043576E-7
+English;dsf>SI;1000 m3;2.446575545548800
+English;dsf>SI;km3;0.000002446575545548800
+English;dsf>SI;m3;2446.575545548800
+English;dsf>SI;mcm;0.002446575545548800
+English;ft3>English;ac-ft;0.00002295684113865932
+English;ft3>English;dsf;0.00001157407407407407
+English;ft3>English;gal;7.480519053672361
+English;ft3>English;kaf;2.295684113865932E-8
+English;ft3>English;kdsf;1.157407407407407E-8
+English;ft3>English;kgal;0.007480519053672361
+English;ft3>English;mgal;0.000007480519053672361
+English;ft3>English;mile3;6.793572780143028E-12
+English;ft3>SI;1000 m3;0.0000283168465920
+English;ft3>SI;km3;2.83168465920E-11
+English;ft3>SI;m3;0.0283168465920
+English;ft3>SI;mcm;2.83168465920E-8
+English;gal>English;ac-ft;0.000003068883452330661
+English;gal>English;dsf;0.000001547228740550042
+English;gal>English;ft3;0.1336805631835236
+English;gal>English;kaf;3.068883452330661E-9
+English;gal>English;kdsf;1.547228740550042E-9
+English;gal>English;kgal;0.0010
+English;gal>English;mgal;0.0000010
+English;gal>English;mile3;9.081686352777761E-13
+English;gal>SI;1000 m3;0.0000037854120
+English;gal>SI;km3;3.7854120E-12
+English;gal>SI;m3;0.0037854120
+English;gal>SI;mcm;3.7854120E-9
+English;kaf>English;ac-ft;1.0E+3
+English;kaf>English;dsf;504.1666666666667
+English;kaf>English;ft3;4.35600E+7
+English;kaf>English;gal;325851409.9779681
+English;kaf>English;kdsf;0.5041666666666667
+English;kaf>English;kgal;325851.4099779681
+English;kaf>English;mgal;325.8514099779681
+English;kaf>English;mile3;0.0002959280303030303
+English;kaf>SI;1000 m3;1233.481837547520
+English;kaf>SI;km3;0.001233481837547520
+English;kaf>SI;m3;1233481.837547520
+English;kaf>SI;mcm;1.233481837547520
+English;kdsf>English;ac-ft;1983.471074380165
+English;kdsf>English;dsf;1.0E+3
+English;kdsf>English;ft3;8.64000E+7
+English;kdsf>English;gal;646316846.2372920
+English;kdsf>English;kaf;1.983471074380165
+English;kdsf>English;kgal;646316.8462372920
+English;kdsf>English;mgal;646.3168462372920
+English;kdsf>English;mile3;0.0005869646882043576
+English;kdsf>SI;1000 m3;2446.575545548800
+English;kdsf>SI;km3;0.002446575545548800
+English;kdsf>SI;m3;2446575.545548800
+English;kdsf>SI;mcm;2.446575545548800
+English;kgal>English;ac-ft;0.003068883452330661
+English;kgal>English;dsf;0.001547228740550042
+English;kgal>English;ft3;133.6805631835236
+English;kgal>English;gal;1.0E+3
+English;kgal>English;kaf;0.000003068883452330661
+English;kgal>English;kdsf;0.000001547228740550042
+English;kgal>English;mgal;0.0010
+English;kgal>English;mile3;9.081686352777761E-10
+English;kgal>SI;1000 m3;0.0037854120
+English;kgal>SI;km3;3.7854120E-9
+English;kgal>SI;m3;3.7854120
+English;kgal>SI;mcm;0.0000037854120
+English;mgal>English;ac-ft;3.068883452330661
+English;mgal>English;dsf;1.547228740550042
+English;mgal>English;ft3;133680.5631835236
+English;mgal>English;gal;1.0E+6
+English;mgal>English;kaf;0.003068883452330661
+English;mgal>English;kdsf;0.001547228740550042
+English;mgal>English;kgal;1.0E+3
+English;mgal>English;mile3;9.081686352777761E-7
+English;mgal>SI;1000 m3;3.7854120
+English;mgal>SI;km3;0.0000037854120
+English;mgal>SI;m3;3785.4120
+English;mgal>SI;mcm;0.0037854120
+English;mile3>English;ac-ft;3379200.0
+English;mile3>English;dsf;1703680.0
+English;mile3>English;ft3;147197952000.0
+English;mile3>English;gal;1101117084597.550
+English;mile3>English;kaf;3379.2000
+English;mile3>English;kdsf;1703.6800
+English;mile3>English;kgal;1101117084.597550
+English;mile3>English;mgal;1101117.084597550
+English;mile3>SI;1000 m3;4168181.825440580
+English;mile3>SI;km3;4.168181825440580
+English;mile3>SI;m3;4168181825.440580
+English;mile3>SI;mcm;4168.181825440580
+SI;1000 m3>English;ac-ft;0.8107131937899125
+SI;1000 m3>English;dsf;0.4087345685357476
+SI;1000 m3>English;ft3;35314.66672148859
+SI;1000 m3>English;gal;264172.0372841847
+SI;1000 m3>English;kaf;0.0008107131937899125
+SI;1000 m3>English;kdsf;0.0004087345685357476
+SI;1000 m3>English;kgal;264.1720372841847
+SI;1000 m3>English;mgal;0.2641720372841847
+SI;1000 m3>English;mile3;2.399127585789277E-7
+SI;1000 m3>SI;km3;0.0000010
+SI;1000 m3>SI;m3;1.0E+3
+SI;1000 m3>SI;mcm;0.0010
+SI;km3>English;ac-ft;810713.1937899125
+SI;km3>English;dsf;408734.5685357476
+SI;km3>English;ft3;35314666721.48859
+SI;km3>English;gal;264172037284.1847
+SI;km3>English;kaf;810.7131937899125
+SI;km3>English;kdsf;408.7345685357476
+SI;km3>English;kgal;264172037.2841847
+SI;km3>English;mgal;264172.0372841847
+SI;km3>English;mile3;0.2399127585789277
+SI;km3>SI;1000 m3;1.0E+6
+SI;km3>SI;m3;1.0E+9
+SI;km3>SI;mcm;1.0E+3
+SI;m3>English;ac-ft;0.0008107131937899125
+SI;m3>English;dsf;0.0004087345685357476
+SI;m3>English;ft3;35.31466672148859
+SI;m3>English;gal;264.1720372841847
+SI;m3>English;kaf;8.107131937899125E-7
+SI;m3>English;kdsf;4.087345685357476E-7
+SI;m3>English;kgal;0.2641720372841847
+SI;m3>English;mgal;0.0002641720372841847
+SI;m3>English;mile3;2.399127585789277E-10
+SI;m3>SI;1000 m3;0.0010
+SI;m3>SI;km3;1.0E-9
+SI;mcm>English;ac-ft;810.7131937899125
+SI;mcm>English;dsf;408.7345685357476
+SI;mcm>English;ft3;35314666.72148859
+SI;mcm>English;gal;264172037.2841847
+SI;mcm>English;kaf;0.8107131937899125
+SI;mcm>English;kdsf;0.4087345685357476
+SI;mcm>English;kgal;264172.0372841847
+SI;mcm>English;mgal;264.1720372841847
+SI;mcm>SI;1000 m3;1.0E+3
+SI;mcm>SI;km3;0.0010
+
+//Volume Rate
+English;cfs;CFS;FT3/S;FT3/SEC;cu-ft/sec;cuft/sec;cusecs;ft3/s;ft3/sec;ft^3/s
+English;gpm;GPM;Gal/min;gallons per minute
+English;kcfs;1000 cfs;1000 cu-ft/sec;1000 ft3/sec;KCFS
+English;mgd;MGD;million gallons/day
+SI;cms;CMS;M3/S;M3/SEC;cu-meters/sec;m3/s;m3/sec
+SI;kcms;1000 cms;KCMS
+
+//Volume Rate Conversions
+English;cfs>English;gpm;448.8311432203417
+English;cfs>English;kcfs;0.0010
+English;cfs>English;mgd;0.6463168462372920
+English;cfs>SI;cms;0.0283168465920
+English;cfs>SI;kcms;0.0000283168465920
+English;gpm>English;cfs;0.00222800938639206
+English;gpm>English;kcfs;0.00000222800938639206
+English;gpm>English;mgd;0.0014400
+English;gpm>SI;cms;0.0000630902
+English;gpm>SI;kcms;6.30902E-8
+English;kcfs>English;cfs;1.0E+3
+English;kcfs>English;gpm;448831.1432203417
+English;kcfs>English;mgd;646.3168462372920
+English;kcfs>SI;cms;28.3168465920
+English;kcfs>SI;kcms;0.0283168465920
+English;mgd>English;cfs;1.547228740550042
+English;mgd>English;gpm;694.4444444444444
+English;mgd>English;kcfs;0.001547228740550042
+English;mgd>SI;cms;0.04381263888888889
+English;mgd>SI;kcms;0.00004381263888888889
+SI;cms>English;cfs;35.31466672148859
+SI;cms>English;gpm;15850.32223705108
+SI;cms>English;kcfs;0.03531466672148859
+SI;cms>English;mgd;22.82446402135356
+SI;cms>SI;kcms;0.0010
+SI;kcms>English;cfs;35314.66672148859
+SI;kcms>English;gpm;15850322.23705108
+SI;kcms>English;kcfs;35.31466672148859
+SI;kcms>English;mgd;22824.46402135356
+SI;kcms>SI;cms;1.0E+3
+
+//Depth Velocity
+English;ft²/s;ft2/s
+SI;m²/s;m2/s
+English;ft²/s>SI;m²/s;0.092903
+SI;m²/s>English;ft²/s;10.763867
+
